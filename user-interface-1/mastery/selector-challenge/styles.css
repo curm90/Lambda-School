@@ -1,0 +1,39 @@
+p {
+  color: red;
+}
+
+.child p {
+  color: blue;
+}
+
+.child .grandchild p {
+  color: green;
+}
+
+.child .grandchild .greatgrandchild p {
+  color: pink;
+}
+
+.grandchild .greatgrandchild.greatgrandchild2 p {
+  color: purple;
+}
+
+.child.child2 p {
+  color: coral;
+}
+
+.child2 .grandchild p {
+  color: aqua;
+}
+
+.child2 .grandchild .greatgrandchild p {
+  color: rosybrown;
+}
+
+.child2 .grandchild2 p {
+  color: sienna;
+}
+
+.child2 .grandchild2 .greatgrandchild p {
+  color: tomato;
+}
