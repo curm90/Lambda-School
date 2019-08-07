@@ -1,0 +1,123 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	padding: 16px 0;
+	display: flex;
+	align-items: center;
+	/* margin: 0; */
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 32px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b4b3b3;
+}
+
+.jumbotron {
+	padding: 48px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo-container .logo {
+	width: 200px;
+}
+
+.main-header-container {
+	max-width: 400px;
+	text-align: center;
+	height: 390px;
+	vertical-align: top;
+}
+
+.main-img {
+	max-width: 400px;
+	height: 390px;
+}
+
+div .main-header {
+	font-size: 86px;
+	margin-top: 32px;
+}
+
+.get-started {
+	padding: 8px 24px;
+	font-size: 16px;
+	font-weight: 400;
+	background: none;
+	letter-spacing: 1px;
+	border: 1px solid black;
+}
+
+.line-break {
+	height: 1px;
+	width: 850px;
+	background: black;
+	margin: 0px auto;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-one-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 32px 0;
+}
+
+.article-top {
+	width: 400px;
+}
+
+.article-img {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0;
+}
+
+.section-three-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 32px 0;
+}
+
+.article-bottom {
+	justify-content: center;
+	width: 250px;
+}
+
+footer {
+	margin-top: 24px;
+	height: 300px;
+}
+
+.footer-content {
+	margin: 0 32px;
+}
+
+.footer-content ul {
+	width: 200px;
+}
+
+.footer-content ul li {
+	padding: 8px 0;
+}
+
+.copy {
+	text-align: center;
+	margin-top: 48px;
+}
